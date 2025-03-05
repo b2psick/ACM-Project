@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #d84040, #a31d1d, #ecdcbf);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: white;
+  }
+  h1{
+      font-size: 8rem;
+      margin: 0;
+  }
+  p{
+      font-size: 2rem;
+      width: 1000px;
+  }
+      form{
+          display: flex;
+          flex-direction: column;
+          width: 500px;
+          padding: 10px;
+      }
+      .form{
+          border: 1px solid black;
+          padding: 10px;
+          color: black;
+          background-color: whitesmoke;
+      }
+      form button{
+          background-color: green;
+          color: white;
+          border-radius: 10px;
+          height: 40px;
+      }
